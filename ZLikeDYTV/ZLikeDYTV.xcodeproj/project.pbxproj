@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1892624D1D8945BE008EE5C2 /* empty in Resources */ = {isa = PBXBuildFile; fileRef = 1892624C1D8945BE008EE5C2 /* empty */; };
 		189BF9261D88F040007E29B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9241D88F040007E29B4 /* Main.storyboard */; };
 		189BF9281D88F040007E29B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9271D88F040007E29B4 /* Assets.xcassets */; };
 		189BF92B1D88F040007E29B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9291D88F040007E29B4 /* LaunchScreen.storyboard */; };
@@ -15,12 +16,11 @@
 		189BF95C1D88FF33007E29B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9561D88FF33007E29B4 /* ViewController.m */; };
 		189BF9641D89007C007E29B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9631D89007C007E29B4 /* AppDelegate.m */; };
 		189BF9661D89008E007E29B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9651D89008E007E29B4 /* main.m */; };
-		189BF9691D89044B007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9681D89044B007E29B4 /* empty.m */; };
-		189BF96C1D890460007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF96B1D890460007E29B4 /* empty.m */; };
-		189BF96F1D89046A007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF96E1D89046A007E29B4 /* empty.m */; };
-		189BF9721D890479007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9711D890479007E29B4 /* empty.m */; };
-		189BF9751D890483007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9741D890483007E29B4 /* empty.m */; };
-		189BF9781D89048F007E29B4 /* empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9771D89048F007E29B4 /* empty.m */; };
+		189BF9841D891C20007E29B4 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9831D891C20007E29B4 /* Placeholder */; };
+		189BF9881D8922D6007E29B4 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9871D8922D6007E29B4 /* Home.storyboard */; };
+		189BF9981D892719007E29B4 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9971D892719007E29B4 /* Follow.storyboard */; };
+		189BF99A1D892727007E29B4 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9991D892727007E29B4 /* Live.storyboard */; };
+		189BF99C1D89274D007E29B4 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF99B1D89274D007E29B4 /* Mine.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1892624C1D8945BE008EE5C2 /* empty */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty; sourceTree = "<group>"; };
 		189BF9181D88F03F007E29B4 /* ZLikeDYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLikeDYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189BF9251D88F040007E29B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		189BF9271D88F040007E29B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,18 +58,11 @@
 		189BF9621D89007C007E29B4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		189BF9631D89007C007E29B4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		189BF9651D89008E007E29B4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Main/main.m; sourceTree = "<group>"; };
-		189BF9671D89044B007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF9681D89044B007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		189BF96A1D890460007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF96B1D890460007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		189BF96D1D89046A007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF96E1D89046A007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		189BF9701D890479007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF9711D890479007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		189BF9731D890483007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF9741D890483007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
-		189BF9761D89048F007E29B4 /* empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = empty.h; sourceTree = "<group>"; };
-		189BF9771D89048F007E29B4 /* empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = empty.m; sourceTree = "<group>"; };
+		189BF9831D891C20007E29B4 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
+		189BF9871D8922D6007E29B4 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		189BF9971D892719007E29B4 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		189BF9991D892727007E29B4 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		189BF99B1D89274D007E29B4 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +158,7 @@
 		189BF94E1D88FF33007E29B4 /* Follow(关注) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF9671D89044B007E29B4 /* empty.h */,
-				189BF9681D89044B007E29B4 /* empty.m */,
+				189BF9971D892719007E29B4 /* Follow.storyboard */,
 			);
 			name = "Follow(关注)";
 			path = Follow;
@@ -174,8 +167,7 @@
 		189BF94F1D88FF33007E29B4 /* Home(首页) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF96A1D890460007E29B4 /* empty.h */,
-				189BF96B1D890460007E29B4 /* empty.m */,
+				189BF9871D8922D6007E29B4 /* Home.storyboard */,
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -184,8 +176,7 @@
 		189BF9501D88FF33007E29B4 /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF96D1D89046A007E29B4 /* empty.h */,
-				189BF96E1D89046A007E29B4 /* empty.m */,
+				189BF9991D892727007E29B4 /* Live.storyboard */,
 			);
 			name = "Live(直播)";
 			path = Live;
@@ -206,8 +197,7 @@
 		189BF9571D88FF33007E29B4 /* Mine(我的) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF9701D890479007E29B4 /* empty.h */,
-				189BF9711D890479007E29B4 /* empty.m */,
+				189BF99B1D89274D007E29B4 /* Mine.storyboard */,
 			);
 			name = "Mine(我的)";
 			path = Mine;
@@ -216,8 +206,7 @@
 		189BF9581D88FF33007E29B4 /* Tools(工具) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF9731D890483007E29B4 /* empty.h */,
-				189BF9741D890483007E29B4 /* empty.m */,
+				189BF9831D891C20007E29B4 /* Placeholder */,
 			);
 			name = "Tools(工具)";
 			path = Tools;
@@ -226,8 +215,7 @@
 		189BF9591D88FF33007E29B4 /* Venders(第三方) */ = {
 			isa = PBXGroup;
 			children = (
-				189BF9761D89048F007E29B4 /* empty.h */,
-				189BF9771D89048F007E29B4 /* empty.m */,
+				1892624C1D8945BE008EE5C2 /* empty */,
 			);
 			name = "Venders(第三方)";
 			path = Venders;
@@ -339,9 +327,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BF99C1D89274D007E29B4 /* Mine.storyboard in Resources */,
+				189BF9881D8922D6007E29B4 /* Home.storyboard in Resources */,
+				189BF99A1D892727007E29B4 /* Live.storyboard in Resources */,
 				189BF92B1D88F040007E29B4 /* LaunchScreen.storyboard in Resources */,
 				189BF9281D88F040007E29B4 /* Assets.xcassets in Resources */,
 				189BF9261D88F040007E29B4 /* Main.storyboard in Resources */,
+				1892624D1D8945BE008EE5C2 /* empty in Resources */,
+				189BF9841D891C20007E29B4 /* Placeholder in Resources */,
+				189BF9981D892719007E29B4 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,13 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189BF95C1D88FF33007E29B4 /* ViewController.m in Sources */,
-				189BF9751D890483007E29B4 /* empty.m in Sources */,
-				189BF9691D89044B007E29B4 /* empty.m in Sources */,
-				189BF9781D89048F007E29B4 /* empty.m in Sources */,
 				189BF9661D89008E007E29B4 /* main.m in Sources */,
-				189BF9721D890479007E29B4 /* empty.m in Sources */,
-				189BF96F1D89046A007E29B4 /* empty.m in Sources */,
-				189BF96C1D890460007E29B4 /* empty.m in Sources */,
 				189BF9641D89007C007E29B4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,7 +505,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZLikeDYTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,7 +518,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ZLikeDYTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,6 +590,7 @@
 				189BF9471D88F040007E29B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189BF9481D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVTests" */ = {
 			isa = XCConfigurationList;
@@ -610,6 +599,7 @@
 				189BF94A1D88F040007E29B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		189BF94B1D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +608,7 @@
 				189BF94D1D88F040007E29B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
