@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D24EA2355732BE03F44E7C6D9AABD28CDE068D5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D24EA2355732BE03F44E7C6D9AABD28CDE068D5" : 0,
+    "2A8CC76D0984F5186F869B6CBF35034B58A5ACD9" : 0,
+    "4182765C525509B305166AB949D5935FD5C85212" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "43342B07-5B68-4E51-ACF5-CDAD6BADBC11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D24EA2355732BE03F44E7C6D9AABD28CDE068D5" : "ZLikeDYTV\/",
+    "2A8CC76D0984F5186F869B6CBF35034B58A5ACD9" : "ZLikeDYTV\/ZLikeDYTV\/ZLikeDYTV\/Venders\/MJRefresh\/",
+    "4182765C525509B305166AB949D5935FD5C85212" : "ZLikeDYTV\/ZLikeDYTV\/ZLikeDYTV\/Venders\/MBProgressHUD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZLikeDYTV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZLikeDYTV\/ZLikeDYTV.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CoderMJLee\/MJRefresh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2A8CC76D0984F5186F869B6CBF35034B58A5ACD9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhaocy0726\/ZLikeDYTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D24EA2355732BE03F44E7C6D9AABD28CDE068D5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jdg\/MBProgressHUD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4182765C525509B305166AB949D5935FD5C85212"
+    }
+  ]
+}
