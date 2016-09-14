@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189BF91D1D88F040007E29B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF91C1D88F040007E29B4 /* main.m */; };
+		189BF9201D88F040007E29B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF91F1D88F040007E29B4 /* AppDelegate.m */; };
+		189BF9231D88F040007E29B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9221D88F040007E29B4 /* ViewController.m */; };
+		189BF9261D88F040007E29B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9241D88F040007E29B4 /* Main.storyboard */; };
+		189BF9281D88F040007E29B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9271D88F040007E29B4 /* Assets.xcassets */; };
+		189BF92B1D88F040007E29B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9291D88F040007E29B4 /* LaunchScreen.storyboard */; };
+		189BF9361D88F040007E29B4 /* ZLikeDYTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9351D88F040007E29B4 /* ZLikeDYTVTests.m */; };
+		189BF9411D88F040007E29B4 /* ZLikeDYTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BF9401D88F040007E29B4 /* ZLikeDYTVUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189BF9321D88F040007E29B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189BF9101D88F03F007E29B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189BF9171D88F03F007E29B4;
+			remoteInfo = ZLikeDYTV;
+		};
+		189BF93D1D88F040007E29B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189BF9101D88F03F007E29B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189BF9171D88F03F007E29B4;
+			remoteInfo = ZLikeDYTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189BF9181D88F03F007E29B4 /* ZLikeDYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLikeDYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BF91C1D88F040007E29B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189BF91E1D88F040007E29B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		189BF91F1D88F040007E29B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		189BF9211D88F040007E29B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		189BF9221D88F040007E29B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		189BF9251D88F040007E29B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189BF9271D88F040007E29B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189BF92A1D88F040007E29B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189BF92C1D88F040007E29B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189BF9311D88F040007E29B4 /* ZLikeDYTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLikeDYTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BF9351D88F040007E29B4 /* ZLikeDYTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLikeDYTVTests.m; sourceTree = "<group>"; };
+		189BF9371D88F040007E29B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189BF93C1D88F040007E29B4 /* ZLikeDYTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLikeDYTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189BF9401D88F040007E29B4 /* ZLikeDYTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLikeDYTVUITests.m; sourceTree = "<group>"; };
+		189BF9421D88F040007E29B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189BF9151D88F03F007E29B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF92E1D88F040007E29B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF9391D88F040007E29B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189BF90F1D88F03F007E29B4 = {
+			isa = PBXGroup;
+			children = (
+				189BF91A1D88F040007E29B4 /* ZLikeDYTV */,
+				189BF9341D88F040007E29B4 /* ZLikeDYTVTests */,
+				189BF93F1D88F040007E29B4 /* ZLikeDYTVUITests */,
+				189BF9191D88F03F007E29B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189BF9191D88F03F007E29B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189BF9181D88F03F007E29B4 /* ZLikeDYTV.app */,
+				189BF9311D88F040007E29B4 /* ZLikeDYTVTests.xctest */,
+				189BF93C1D88F040007E29B4 /* ZLikeDYTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189BF91A1D88F040007E29B4 /* ZLikeDYTV */ = {
+			isa = PBXGroup;
+			children = (
+				189BF91E1D88F040007E29B4 /* AppDelegate.h */,
+				189BF91F1D88F040007E29B4 /* AppDelegate.m */,
+				189BF9211D88F040007E29B4 /* ViewController.h */,
+				189BF9221D88F040007E29B4 /* ViewController.m */,
+				189BF9241D88F040007E29B4 /* Main.storyboard */,
+				189BF9271D88F040007E29B4 /* Assets.xcassets */,
+				189BF9291D88F040007E29B4 /* LaunchScreen.storyboard */,
+				189BF92C1D88F040007E29B4 /* Info.plist */,
+				189BF91B1D88F040007E29B4 /* Supporting Files */,
+			);
+			path = ZLikeDYTV;
+			sourceTree = "<group>";
+		};
+		189BF91B1D88F040007E29B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				189BF91C1D88F040007E29B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		189BF9341D88F040007E29B4 /* ZLikeDYTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				189BF9351D88F040007E29B4 /* ZLikeDYTVTests.m */,
+				189BF9371D88F040007E29B4 /* Info.plist */,
+			);
+			path = ZLikeDYTVTests;
+			sourceTree = "<group>";
+		};
+		189BF93F1D88F040007E29B4 /* ZLikeDYTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189BF9401D88F040007E29B4 /* ZLikeDYTVUITests.m */,
+				189BF9421D88F040007E29B4 /* Info.plist */,
+			);
+			path = ZLikeDYTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189BF9171D88F03F007E29B4 /* ZLikeDYTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189BF9451D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTV" */;
+			buildPhases = (
+				189BF9141D88F03F007E29B4 /* Sources */,
+				189BF9151D88F03F007E29B4 /* Frameworks */,
+				189BF9161D88F03F007E29B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLikeDYTV;
+			productName = ZLikeDYTV;
+			productReference = 189BF9181D88F03F007E29B4 /* ZLikeDYTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189BF9301D88F040007E29B4 /* ZLikeDYTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189BF9481D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVTests" */;
+			buildPhases = (
+				189BF92D1D88F040007E29B4 /* Sources */,
+				189BF92E1D88F040007E29B4 /* Frameworks */,
+				189BF92F1D88F040007E29B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189BF9331D88F040007E29B4 /* PBXTargetDependency */,
+			);
+			name = ZLikeDYTVTests;
+			productName = ZLikeDYTVTests;
+			productReference = 189BF9311D88F040007E29B4 /* ZLikeDYTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189BF93B1D88F040007E29B4 /* ZLikeDYTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189BF94B1D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVUITests" */;
+			buildPhases = (
+				189BF9381D88F040007E29B4 /* Sources */,
+				189BF9391D88F040007E29B4 /* Frameworks */,
+				189BF93A1D88F040007E29B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189BF93E1D88F040007E29B4 /* PBXTargetDependency */,
+			);
+			name = ZLikeDYTVUITests;
+			productName = ZLikeDYTVUITests;
+			productReference = 189BF93C1D88F040007E29B4 /* ZLikeDYTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189BF9101D88F03F007E29B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					189BF9171D88F03F007E29B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CL2P256765;
+					};
+					189BF9301D88F040007E29B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CL2P256765;
+						TestTargetID = 189BF9171D88F03F007E29B4;
+					};
+					189BF93B1D88F040007E29B4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CL2P256765;
+						TestTargetID = 189BF9171D88F03F007E29B4;
+					};
+				};
+			};
+			buildConfigurationList = 189BF9131D88F03F007E29B4 /* Build configuration list for PBXProject "ZLikeDYTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189BF90F1D88F03F007E29B4;
+			productRefGroup = 189BF9191D88F03F007E29B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189BF9171D88F03F007E29B4 /* ZLikeDYTV */,
+				189BF9301D88F040007E29B4 /* ZLikeDYTVTests */,
+				189BF93B1D88F040007E29B4 /* ZLikeDYTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189BF9161D88F03F007E29B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BF92B1D88F040007E29B4 /* LaunchScreen.storyboard in Resources */,
+				189BF9281D88F040007E29B4 /* Assets.xcassets in Resources */,
+				189BF9261D88F040007E29B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF92F1D88F040007E29B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF93A1D88F040007E29B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189BF9141D88F03F007E29B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BF9231D88F040007E29B4 /* ViewController.m in Sources */,
+				189BF9201D88F040007E29B4 /* AppDelegate.m in Sources */,
+				189BF91D1D88F040007E29B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF92D1D88F040007E29B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BF9361D88F040007E29B4 /* ZLikeDYTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189BF9381D88F040007E29B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189BF9411D88F040007E29B4 /* ZLikeDYTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189BF9331D88F040007E29B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189BF9171D88F03F007E29B4 /* ZLikeDYTV */;
+			targetProxy = 189BF9321D88F040007E29B4 /* PBXContainerItemProxy */;
+		};
+		189BF93E1D88F040007E29B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189BF9171D88F03F007E29B4 /* ZLikeDYTV */;
+			targetProxy = 189BF93D1D88F040007E29B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189BF9241D88F040007E29B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189BF9251D88F040007E29B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189BF9291D88F040007E29B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189BF92A1D88F040007E29B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189BF9431D88F040007E29B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		189BF9441D88F040007E29B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189BF9461D88F040007E29B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLikeDYTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189BF9471D88F040007E29B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZLikeDYTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189BF9491D88F040007E29B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLikeDYTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLikeDYTV.app/ZLikeDYTV";
+			};
+			name = Debug;
+		};
+		189BF94A1D88F040007E29B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZLikeDYTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLikeDYTV.app/ZLikeDYTV";
+			};
+			name = Release;
+		};
+		189BF94C1D88F040007E29B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLikeDYTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLikeDYTV;
+			};
+			name = Debug;
+		};
+		189BF94D1D88F040007E29B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZLikeDYTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Z.ZLikeDYTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZLikeDYTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189BF9131D88F03F007E29B4 /* Build configuration list for PBXProject "ZLikeDYTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BF9431D88F040007E29B4 /* Debug */,
+				189BF9441D88F040007E29B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189BF9451D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BF9461D88F040007E29B4 /* Debug */,
+				189BF9471D88F040007E29B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189BF9481D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BF9491D88F040007E29B4 /* Debug */,
+				189BF94A1D88F040007E29B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189BF94B1D88F040007E29B4 /* Build configuration list for PBXNativeTarget "ZLikeDYTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189BF94C1D88F040007E29B4 /* Debug */,
+				189BF94D1D88F040007E29B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189BF9101D88F03F007E29B4 /* Project object */;
+}
