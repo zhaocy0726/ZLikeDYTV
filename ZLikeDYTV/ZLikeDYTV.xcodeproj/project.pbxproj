@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180072301D8FCBD700CDA77D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800722F1D8FCBD700CDA77D /* HomeViewController.m */; };
 		1892624D1D8945BE008EE5C2 /* empty in Resources */ = {isa = PBXBuildFile; fileRef = 1892624C1D8945BE008EE5C2 /* empty */; };
 		189BF9261D88F040007E29B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9241D88F040007E29B4 /* Main.storyboard */; };
 		189BF9281D88F040007E29B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189BF9271D88F040007E29B4 /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1800722E1D8FCBD700CDA77D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1800722F1D8FCBD700CDA77D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		1892624C1D8945BE008EE5C2 /* empty */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = empty; sourceTree = "<group>"; };
 		189BF9181D88F03F007E29B4 /* ZLikeDYTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLikeDYTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		189BF9251D88F040007E29B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				189BF9871D8922D6007E29B4 /* Home.storyboard */,
+				1800722E1D8FCBD700CDA77D /* HomeViewController.h */,
+				1800722F1D8FCBD700CDA77D /* HomeViewController.m */,
 			);
 			name = "Home(首页)";
 			path = Home;
@@ -363,6 +368,7 @@
 				189BF95C1D88FF33007E29B4 /* ViewController.m in Sources */,
 				189BF9661D89008E007E29B4 /* main.m in Sources */,
 				189BF9641D89007C007E29B4 /* AppDelegate.m in Sources */,
+				180072301D8FCBD700CDA77D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
